@@ -1,0 +1,15 @@
+sdk install scala
+or
+sudo apt install -y scala
+
+scalac Person.scala Unpickling.scala SerializationExamples.scala UnpicklingExamples.scala UnpicklingCustomExamples.scala
+scala SerializationExamples
+scala UnpicklingExamples
+scala UnpicklingCustomExamples
+
+scalac Person.scala Unpickling.scala SerializationExamples.scala UnpicklingExamples.scala UnpicklingCustomExamples.scala -explain && scala SerializationExamples && scala UnpicklingExamples && scala UnpicklingCustomExamples
+
+scalac Person.scala Unpickling.scala SerializationExamples.scala UnpicklingExamples.scala UnpicklingCustomExamples.scala -explain && \
+scala SerializationExamples && \
+scala UnpicklingExamples && \
+scala UnpicklingCustomExamples
